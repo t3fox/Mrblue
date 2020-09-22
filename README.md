@@ -2,4 +2,9 @@
 
 Es necesario contar con:
 -Selnium
--Webdriver Phantomjs
+-Webdriver compatibles
+
+Phantomjs
+Chromedriver
+Firefox
+
