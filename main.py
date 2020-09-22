@@ -1,13 +1,11 @@
-#-------------------------------------------------------------------------------
-# Name:        Autorun
-# Purpose:     Tool bots
+# Name:        Main
+# Purpose:     Panel de ejecucion
 #
 # Author:      t3fox
 #
-# Created:     06/08/2020
+# Created:     06/09/2020
 # Copyright:   (c) t3fox 2020
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
+# Licence:     GNU.V3
 
 import subprocess
 import time
