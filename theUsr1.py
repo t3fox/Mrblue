@@ -27,7 +27,7 @@ driver = webdriver.PhantomJS()
 
 def Usrlog():
 
-    theemail = "fexpoz20@protonmail.com"
+    theemail = "username@mail.com"
     psswrd = "x=6XGnpCVJ"
     driver.get('https://m.facebook.com/')
 
@@ -237,19 +237,9 @@ def commit():
 
     time.sleep(3)
 
-    try:
-        textarea = driver.find_element_by_xpath('/html/body/div[1]/div/div[4]/div/div/div/div/div[2]/div/div/div[6]/div[2]/form/div[1]/div[2]/div[1]/div/textarea')
-
-        if textarea == True:
-            print("Listo para comentar")
-        else:
-            print("no encontrado")
-
-    except:
-        print("no encontrado")
+    textarea = driver.find_element_by_xpath('/html/body/div[1]/div/div[4]/div/div/div/div/div[2]/div/div/div[6]/div[2]/form/div[1]/div[2]/div[1]/div/textarea')
 
     #commit = str(input("Comentario: "))
-
     #textarea.send_keys(commit)
 
 
